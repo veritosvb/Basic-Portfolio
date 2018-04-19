@@ -1,0 +1,182 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:  #777777;
+    background-image: url("../images/concrete_seamless.png");
+    background-repeat: repeat;
+    background-color: #cccccc;
+    font-size: 17px;
+    user-select:none;
+}
+
+h1{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 28px;
+    font-weight:bold;
+
+}
+
+.topBar{
+    position:fixed;
+    top:0;
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom: 2px solid #cccccc; 
+}
+
+.widthTopBar{
+    padding-left: 20%;
+    padding-right: 20%;
+    display:block;
+    float:left;
+    width:960px;
+    height:75px;
+    outline:0
+}
+
+#myNameBar {
+    float:left;
+    margin: 0;
+    padding: 24px;
+    background-color: #4aaaa5;   
+    width: 155px;
+    color: #eee;
+    text-align:center;
+}
+
+.myLinkBar{
+    padding: 25px;
+    float:right;
+}
+
+.navButton{
+    color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.middle{
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+.navButton:hover {
+    background-color: #4aaaa5;
+    color: #eee;
+}
+
+li{
+    width:85px;
+    text-align: center;
+    float:left;
+}
+
+
+.central{
+    clear: both;
+    margin-left:20%;
+    margin-top: 100px;
+    margin-bottom:60px;
+    margin-left:20%;
+    background-color: #ffffff;
+    width: 905px;
+    border: 1px solid #dddddd;
+    padding:30px;
+}
+
+.contact{
+    margin-bottom:200px;
+}
+
+#about-me{
+    padding: 10px 20px 30px 0px;
+    clear: both;
+    border-bottom: 3px solid #dddddd;
+    color: #4aaaa5;
+
+}
+p, form{
+    text-align: justify;
+    line-height: 2;
+}
+
+.myPic{
+    width: 180px;
+    height: 150px;
+}
+
+.me-image{
+    float: left;
+    padding:30px 20px 20px 0px;
+}
+aside{
+    padding:20px 0px 20px 0px;
+    overflow: auto;
+}
+
+.main-bottom{
+   clear:both;
+   padding-bottom: 20px;
+}
+
+.inputSingle{
+    width:100%;
+    padding:7px;
+}
+
+textarea{
+    width:100%;
+    border: 1px solid #dddddd;
+
+}
+
+.formButtom{
+    width:100px;
+    background-color:  #4aaaa5;  
+    color: #eee;
+    padding:10px;
+    font-size: 17px;
+}
+.top-left {
+    position: absolute;
+    overflow:visible;
+    background-color: #4aaaa5;   
+    width:100px;
+    top: 200px;
+
+}
+
+.top-right {
+    position: absolute;
+
+}
+
+.bottom-left {
+    position: absolute;
+
+}
+
+.middle-left {
+    position: absolute;
+
+}
+
+.middle-right {
+    position: absolute;
+
+}
+
+footer{
+   
+   border-top: 6px solid #4aaaa5;
+   padding-top: 30px;
+   background-color:#666666;
+   color:  #cccccc;
+   font-style: normal;
+   font-size: 8px;
+   text-align:center;
+   width:100%;
+   page-break-after: always;
+}
+
