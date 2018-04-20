@@ -138,6 +138,13 @@ textarea{
     font-size: 17px;
 }
 
+.formButtom:hover{
+    font-style: italic;
+}
+
+.formButtom:active{
+    
+}
 .top-left {
     position: relative;
     float: left;
