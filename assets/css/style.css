@@ -12,7 +12,6 @@ h1{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 28px;
     font-weight:bold;
-
 }
 
 .topBar{
@@ -128,7 +127,6 @@ aside{
 textarea{
     width:100%;
     border: 1px solid #dddddd;
-
 }
 
 .formButtom{
@@ -138,37 +136,41 @@ textarea{
     padding:10px;
     font-size: 17px;
 }
-.top-left {
-    position: absolute;
-    overflow:visible;
-    background-color: #4aaaa5;   
-    width:100px;
-    top: 200px;
 
+.top-left {
+    position: relative;
+    float: left;
+    padding: 20px;
 }
 
 .top-right {
-    position: absolute;
-
-}
-
-.bottom-left {
-    position: absolute;
+    position: relative;   
+    float: left;
+    padding: 20px;
 
 }
 
 .middle-left {
-    position: absolute;
+    clear:both;
+    position: relative;
+    float: left;
+    padding: 20px;
 
 }
 
 .middle-right {
-    position: absolute;
+    position: relative;
+    float: left;
+    padding: 20px;
+}
 
+.bottom-left {
+    clear:both;
+    position: relative;
+    padding: 20px;
 }
 
 footer{
-   
    border-top: 6px solid #4aaaa5;
    padding-top: 30px;
    background-color:#666666;
@@ -180,3 +182,8 @@ footer{
    page-break-after: always;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
